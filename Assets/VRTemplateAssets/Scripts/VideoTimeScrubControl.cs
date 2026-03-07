@@ -146,14 +146,15 @@ namespace Unity.VRTemplate
 
         public void PlayOrPauseVideo()
         {
-            // if (m_VideoIsPlaying)
-            // {
-            //     VideoStop();
-            // }
-            // else
-            // {
+            if (m_VideoIsPlaying)
+            {
+                VideoStop();
+            }
+            else
+            {
+                
                 VideoPlay();
-            // }
+            }
         }
 
         void UpdateVideoTimeText()
